@@ -23,3 +23,6 @@ jobs:
 
      - name: Print runner OS
        run: 'echo "Running on: $RUNNER_OS"'
+
+     - name: This will fail
+       run: exit 1
